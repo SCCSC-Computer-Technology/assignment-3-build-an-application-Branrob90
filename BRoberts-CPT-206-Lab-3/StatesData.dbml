@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database1" Class="StatesDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True" SettingsObjectName="BRoberts_CPT_206_Lab_3.Properties.Settings" SettingsPropertyName="Database1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.StatesInfo" Member="StatesInfos">
+    <Type Name="StatesInfo">
+      <Column Name="State" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Population" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="[State Flag Description]" Member="State_Flag_Description" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="[State Flower]" Member="State_Flower" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[State Bird]" Member="State_Bird" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Colors" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[Largest City]" Member="Largest_City" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[Second Largest City]" Member="Second_Largest_City" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[Third Largest City]" Member="Third_Largest_City" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[State Capitol]" Member="State_Capitol" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[Median Income]" Member="Median_Income" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="[Percent of Computer Jobs]" Member="Percent_of_Computer_Jobs" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
