@@ -1,0 +1,6 @@
+After reviewing design files for this solution I find the layout, text, and buttons of the windows forms are well thought out and easy to read. 
+I especially like the simple layout of the forms. Unfortunately while this program does work it does not have the sorting and filtering options 
+present for further review. In the .cs files I see good method layouts and use of Linq, just not the methods for sorting/filtering. I like the 
+amount of comments present in the .cs files and the inclusion of name, assignment, class, etc. that helps clarify whose project it is. What I 
+would change is further setting up the forms with back color, group boxes, radio buttons, etc. then building more off of Linq. I found that Linq 
+worked well for my version of the project if you want to take a look. 
